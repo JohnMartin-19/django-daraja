@@ -27,6 +27,23 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# MPESA VARIABLES
+MPESA_ENVIRONMENT='sandbox'
+MPESA_CONSUMER_KEY='mpesa_consumer_key'
+MPESA_CONSUMER_SECRET = 'mpesa_consumer_secret'
+#Mpesa shortcode
+MPESA_SHORTCODE = 'mpesa_shortcode'
+#
+MPESA_SHORTCODE_TYPE = 'paybill'
+
+#
+MPESA_PASSKEY='mpesa_passkey'
+
+#mpesa initiator username
+MPESA_INITIATOR_USERNAME = 'initiator_username'
+
+MPESA_INITIATOR_SECURITY_CREDENTIAL = 'initiator_security_credential'
+
 
 # Application definition
 
@@ -37,6 +54,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_daraja',
+    'mpesa',
 ]
 
 MIDDLEWARE = [
