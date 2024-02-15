@@ -5,7 +5,7 @@ from django_daraja.mpesa.core import MpesaClient
 
 def index(request):
     cl = MpesaClient()
-    phone_number = '0768171426'
+    phone_number = "254768171426"
     amount = 1
     account_reference='reference'
     transaction_desc= 'Description'

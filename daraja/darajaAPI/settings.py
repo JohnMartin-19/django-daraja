@@ -29,20 +29,20 @@ ALLOWED_HOSTS = []
 
 # MPESA VARIABLES
 MPESA_ENVIRONMENT='sandbox'
-MPESA_CONSUMER_KEY='mpesa_consumer_key'
-MPESA_CONSUMER_SECRET = 'mpesa_consumer_secret'
+MPESA_CONSUMER_KEY='H1u9UfuZkvYaituL9iAgA2i1MoIl1vympnn5W5fIjuLfGGHl'
+MPESA_CONSUMER_SECRET = 'y8T05qhScVvLW7TxVGHjrmL8EMbKeA3nEtg9V5AIlWGG1eONSfgG3p80AxEGOMhz'
 #Mpesa shortcode
-MPESA_SHORTCODE = 'mpesa_shortcode'
+MPESA_SHORTCODE = '174379'
 #
 MPESA_SHORTCODE_TYPE = 'paybill'
 
 #
-MPESA_PASSKEY='mpesa_passkey'
+MPESA_PASSKEY='bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'
 
 #mpesa initiator username
-MPESA_INITIATOR_USERNAME = 'initiator_username'
+MPESA_INITIATOR_USERNAME = 'testapi'
 
-MPESA_INITIATOR_SECURITY_CREDENTIAL = 'initiator_security_credential'
+MPESA_INITIATOR_SECURITY_CREDENTIAL = 'Safaricom999!*!'
 
 
 # Application definition
